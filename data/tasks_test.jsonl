@@ -1,1 +1,4 @@
-{"web_name": "Cambridge Dictionary", "id": "Cambridge Dictionary--29", "ques": "Go to the Plus section of Cambridge Dictionary, find Image quizzes and do an easy quiz about Animals and tell me your final score.", "web": "https://dictionary.cambridge.org/"}
+{"web_name": "Booking", "id": "Booking--1", "ques": "Find the cheapest available hotel room for a three night stay from 1st Jan in Jakarta. The room is for 2 adults, just answer the cheapest hotel room and the price.", "web": "https://www.booking.com/"}
+{"web_name": "Booking", "id": "Booking--10", "ques": "Find a well-reviewed hotel in Paris with available bookings suitable for a couple (2 adults) on Valentine's Day week, February 14-21, 2024, that offers free cancellation options.", "web": "https://www.booking.com/"}
+
+

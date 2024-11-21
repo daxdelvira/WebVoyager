@@ -236,6 +236,7 @@ def main():
     parser.add_argument('--test_file', type=str, default='data/test.json')
     parser.add_argument('--max_iter', type=int, default=5)
     parser.add_argument("--api_key", default="key", type=str, help="YOUR_OPENAI_API_KEY")
+    parser.addargument("--base_url", default='http://localhost:11434/v1',type=str)
     parser.add_argument("--api_model", default="gpt-4-vision-preview", type=str, help="api model name")
     parser.add_argument("--output_dir", type=str, default='results')
     parser.add_argument("--seed", type=int, default=None)
@@ -254,7 +255,7 @@ def main():
     args = parser.parse_args()
 
     # OpenAI client
-    client = OpenAI(api_key=args.api_key)
+    client = OpenAI(base_url=args.base_url, api_key=args.api_key)
 
     options = driver_config(args)
 

@@ -1,7 +1,8 @@
 #!/bin/bash
 nohup python -u run.py \
     --test_file ./data/tasks_test.jsonl \
-    --api_key YOUR_OPENAI_API_KEY \
+    --api_key ollama \
+	--base_url http://localhost:11434/v1\
     --headless \
     --max_iter 15 \
     --max_attached_imgs 3 \
