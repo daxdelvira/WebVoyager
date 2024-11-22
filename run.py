@@ -254,7 +254,7 @@ def main():
     parser.add_argument("--fix_box_color", action='store_true')
 
     args = parser.parse_args()
-
+    print("Passed arg parse")
     # OpenAI client
     client = OpenAI(base_url=args.base_url, api_key=args.api_key)
 
