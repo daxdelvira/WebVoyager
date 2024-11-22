@@ -33,6 +33,7 @@ Key Guidelines You MUST follow:
 
 Your reply should strictly follow the format:
 Thought: {Your brief thoughts (briefly summarize the info that will help ANSWER)}
+States: {Update each of the state variables in task['state_vars'] and display them in the format (state variable, value). List the states that are not yet at their goal value described task['goal'].}
 Action: {One Action format you choose}
 
 Then the User will provide:
