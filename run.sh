@@ -2,7 +2,7 @@
 nohup python -u run.py \
     --test_file ./data/tasks_test.jsonl \
     --api_key ollama \
-	--base_url http://0.0.0.0:8000
+	--base_url http://0.0.0.0:8000 \
     --headless \
     --max_iter 15 \
     --max_attached_imgs 3 \
