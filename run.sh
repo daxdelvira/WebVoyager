@@ -1,4 +1,5 @@
 #!/bin/bash
+set -x
 nohup python -u run.py \
     --test_file ./data/tasks_test.jsonl \
     --api_key ollama \
