@@ -35,7 +35,7 @@ def setup_logger(folder_path):
 
 def driver_config(args):
     options = webdriver.ChromeOptions()
-    options.binary_location = "/storage/home/hcoda1/7/avandevoorde3/chrome"
+    options.binary_location = "/usr/bin/google-chrome"
 
     if args.save_accessibility_tree:
         args.force_device_scale = True
